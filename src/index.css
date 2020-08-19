@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: 'Muli', sans-serif;
+}
+.navbar{
+  background-color: #fff !important;
+ 
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover{
+  color: #3498db !important;
+}
+@media (max-width: 991px){
+  .navbar-brand{
+    font-size: 1.5rem !important;
+  }
+
+}
+.btn-get-started{
+  border: 1px solid blue;
+  padding: 10px;
+  text-decoration: none;
+}
+.btn-get-started:hover{
+  background-color: blue;
+}
+
+
+
